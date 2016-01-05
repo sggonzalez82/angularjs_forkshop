@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/mliwski/angularjs_forkshop",
   "authors": [
-    "mliwski <matias.liwski@gmail.com>",
-    "sallende <sebastian.allende@avantrip.com>"
+    "sggonzalez82 <sergio.gonzalez@avantrip.com>"
   ],
   "description": "AngularJS Workshop",
   "main": "src/index.html",
