@@ -23,7 +23,26 @@
                     return $http(request).then(function (response) {
                         return response.data.map(translate_idToid);
                     });
-                }
+                },
+                post: function (task) {
+                var request = {
+                    method: 'POST',
+                    url: base_uri,
+                    headers: {
+                        'Content-Type' : 'application/json'
+                    },
+                    params: {
+                        'apiKey': api_key
+                    },
+                    data: {
+                        'description' : task
+                    }
+                };
+
+                return $http(request).then(function (response) {
+                    return response;
+                });
+            }
 
             };
 
